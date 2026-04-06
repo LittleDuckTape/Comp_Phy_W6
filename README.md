@@ -1,10 +1,10 @@
 # How To Run
 
-## Using Terminal (Command Prompt / PowerShell)
+## Using Terminal (Windows / Linux / macOS)
 1. Navigate to project folder (**cd [insert path to folder]**)
-2. Run the program using **python main.py**
+2. Run the program **python main.py**
 
-## Using Virtual Studio Code
+## Using Visual Studio Code
 1. Open the folder in VS Code
 2. Open 'main.py'
 3. Click **Run** (▶) or press Ctrl + F5
@@ -27,10 +27,22 @@ Type into terminal:
 - (Get-Content even.txt).Count
 - (Get-Content odd.txt).Count
 
-You should get 10000 for all and (even + odd).
+You should get:
+- all.txt = 10000
+- even.txt + odd.txt = 10000
 
 ## Using check.py
 Type **python check.py** in terminal or open **check.py** in VSC and press run (▶)
+
+---
+
+# How To Check Running Time
+
+## On Linux/macOS
+- Run **time python main.py**
+
+## On Windows (Command Prompt / PowerShell)
+- Run **Measure-Command { python main.py }**
 
 ---
 
