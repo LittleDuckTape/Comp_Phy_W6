@@ -4,8 +4,6 @@
 1. Navigate to project folder (**cd [insert path to folder]**)
 2. Run the program using **python main.py**
 
----
-
 ## Using Virtual Studio Code
 1. Open the folder in VS Code
 2. Open 'main.py'
@@ -21,9 +19,9 @@ After running the program, it should output 3 files:
 
 ---
 
-## How To Check Output
+# How To Check Output
 
-### Count Lines
+## Count Lines
 Type into terminal:
 - (Get-Content all.txt).Count
 - (Get-Content even.txt).Count
@@ -31,7 +29,7 @@ Type into terminal:
 
 You should get 10000 for all and (even + odd).
 
-### Using check.py
+## Using check.py
 Run **python check.py** in terminal or VSC
 
 ---
