@@ -30,7 +30,7 @@ Type into terminal:
 You should get 10000 for all and (even + odd).
 
 ## Using check.py
-Run **python check.py** in terminal or VSC
+Type **python check.py** in terminal or open **check.py** in VSC and press run (▶)
 
 ---
 
